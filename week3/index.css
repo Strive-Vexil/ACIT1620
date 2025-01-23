@@ -7,7 +7,7 @@ div p {
 	color: purple;
 }
 
-ul > li {
+ul.orange > li {
 	color: orange;
 }
 
@@ -17,4 +17,8 @@ h1 + p {
 
 input[type="text"] {
 	border: 2px solid blue;
+}
+
+a:hover {
+	color: red;
 }
