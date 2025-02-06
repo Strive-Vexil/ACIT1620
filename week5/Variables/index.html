@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Transforms</title>
+	<style>
+		.translate {
+			width: 150px;
+			height: 100px;
+			background-color: lightblue;
+			text-align: center;
+			line-height: 100px;
+			transition: transform 0.5s ease
+		}
+
+		.translate:hover {
+			/* transform: translate(50px, 30px);
+			transform: translateX(100px); */
+			transform: translateY(200px);
+		}
+
+		.rotate {
+			line-height: 100px;
+			transition: transform 0.5s ease;
+			background-color: blanchedalmond;
+			padding: 10px;
+			width: 100px;
+			/* transform-origin: top left; */
+		}
+
+		.rotate:hover{
+			/* transform: rotate(180deg); */
+			transform: rotate(-45deg);
+		}
+
+		.scale {
+			line-height: 100px;
+			transition: transform 0.5s ease;
+			background-color: limegreen;
+			padding: 10px;
+			width: 100px;
+			/* transform-origin: top left; */
+		}
+
+		.scale:hover{
+			/* transform: scale(1.5, 1.2); */
+			/* transform: scaleX(5); */
+			transform: scaleY(5);
+		}
+
+		.skew {
+			width: 150px;
+			height: 100px;
+			background-color: indianred;
+			text-align: center;
+			line-height: 100px;
+			transition: transform 0.5s ease
+		}
+
+		.skew:hover{
+			/* transform: skew(20deg, 10deg); */
+			transform: skewX(50deg);
+			/* transform: skewY(50deg); */
+		}
+
+		.matrix {
+			width: 150px;
+			height: 100px;
+			background-color: red;
+			text-align: center;
+			line-height: 100px;
+			transition: transform 0.5s ease
+		}
+
+		.matrix:hover {
+			transform: matrix(1, 0.5, -0.5, 5, 30, 20);
+			/*  matrix(scaleX, skewY, skewX, scaleY, translateX, translateY) */
+		}
+
+		.color-btn {
+			background-color: yellowgreen;
+			color: white;
+			border: 1px solid black;
+			cursor: pointer;
+			transition: background-color 0.5s ease
+		}
+
+		.color-btn:hover {
+			background-color: crimson;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class = "translate"> Move Me! </div>
+	<div class = "rotate"> Rotate Me! </div>
+	<div class = "scale"> Scale Me! </div>
+	<div class = "skew"> Skew Me! </div>
+	<div class = "matrix"> Matrix Me! </div>
+	<div class = "color-btn"> Hover Me! </div>
