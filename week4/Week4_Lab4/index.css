@@ -4,6 +4,11 @@ The body tag should have the following styles
 ## The font family should be Arial and sans-serif
 ## Margin and padding should be set to
 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 /* Header Styles: A fixed section at the top */
 /*
