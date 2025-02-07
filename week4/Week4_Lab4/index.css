@@ -2,7 +2,7 @@
 /*
 The body tag should have the following styles
 ## The font family should be Arial and sans-serif
-## Margin and padding should be set to
+## Margin and padding should be set to.
 */
 body {
     font-family: Arial, sans-serif;
@@ -74,7 +74,7 @@ The navbar class should include the following styles
 }
 
 .nav-item:hover {
-    color: #FFD700;
+    color: #FFD710;
     background-color: #555;
     padding: 10px 15px;
     border-radius: 5px;
