@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Planets</title>
+	<style>
+		.redtext {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1> Green Planet </h1>
+	<p id = "greenplanet">All is well</p>
+	<h1> Red Planet</h1>
+	<p id = "redplanet">Nothing to report</p>
+	<h1> Blue Planet</h1>
+	<p id = "blueplanet">All systems are ok</p>
+	<!-- <p id = "code1">The eagle is in the</p>
+	<p id = "code2">The fox is in the</p>
+	<p id = "code3">snuck into the garden last night</p>
+	<p id = "code4">They say it would rain</p>
+	<p id = "code5">Does the reb robin crow at</p>
+	<p id = "code6">Where can I find Mr.</p>
+	<p id = "code7">I told the boys to bring tea and</p>
+	<p id = "code8">Where's my dough? The cake won't</p>
+	<p id = "code9">My watch stopped at</p>
+	<p id = "code10">barking, can't fly without umbrella.</p>
+	<p id = "code11">The oyster owns a fine</p> -->
+	<script>
+		function init(){
+			let planet = document.getElementById("greenplanet");
+			planet.innerHTML = "Red Alert: hit by phaser fire!";
+			planet.setAttribute("class", "redtext");
+		}
+		window.onload = init; 
+	</script>
+	<!-- <script src = "index.js"></script> -->
+</body>
+</html>
