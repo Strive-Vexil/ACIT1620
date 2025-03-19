@@ -48,7 +48,6 @@ const urls = [
 ];
 const randomUrls = shuffle(urls);
 
-console.log(randomUrls);
 /*Your code goes here for step 1*/
 
 
